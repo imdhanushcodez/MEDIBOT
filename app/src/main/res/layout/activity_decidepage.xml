@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".decidepage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_190sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/illu1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:fontFamily="@font/rakkas"
+        android:textColor="#024C75"
+        android:layout_marginTop="@dimen/_230sdp"
+        android:textSize="@dimen/_27sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text="WELCOME TO MEDIBOT COONECT"
+        android:textColor="#9F9F9F"
+        android:layout_marginTop="@dimen/_283sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text="EMPOWERING HEALTH THROUGH CONVERSATION"
+        android:textColor="#9F9F9F"
+        android:layout_marginTop="@dimen/_297sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mainbtn2"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/invetmainbtn"
+        android:elevation="@dimen/_20sdp"
+        android:text="G E T    L O G I N "
+        android:fontFamily="@font/gurrellia"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_350sdp"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mainbtn3"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/mainpage"
+        android:elevation="@dimen/_20sdp"
+        android:text="S I G N   U P "
+        android:textColor="#0480c4"
+        android:fontFamily="@font/gurrellia"
+        android:layout_marginTop="@dimen/_410sdp"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:background="#B8B8B8"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_497sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text=" OR "
+        android:textColor="#9F9F9F"
+        android:layout_marginTop="@dimen/_490sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text="SIGN UP USING "
+        android:textColor="#9F9F9F"
+        android:layout_marginTop="@dimen/_530sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_497sdp"
+        android:background="#B8B8B8"
+        android:layout_marginEnd="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_90sdp"
+        android:background="@drawable/facebook"
+        android:layout_marginTop="@dimen/_560sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:background="@drawable/google"
+        android:layout_marginTop="@dimen/_560sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_560sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/_90sdp"
+        android:background="@drawable/apple"
+
+        app:layout_constraintEnd_toEndOf="parent"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

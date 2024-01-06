@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0480c4"
+    tools:context=".loginpage">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_220sdp"
+        android:background="@drawable/loginpage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rakkas"
+        android:text="LOGIN PORTAL"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_263sdp"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:elevation="@dimen/_2sdp"
+        android:drawableStart="@drawable/baseline_mark_email_read_24"
+        android:paddingStart="@dimen/_10sdp"
+        android:hint="   Enter your email"
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="@dimen/_320sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:elevation="@dimen/_2sdp"
+        android:id="@+id/loginpass"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/baseline_security_24"
+        android:paddingStart="@dimen/_10sdp"
+        android:hint="   Enter your password"
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="@dimen/_390sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/mainpage"
+        android:elevation="@dimen/_20sdp"
+        android:text="S I G N   U P "
+        android:textColor="#0480c4"
+        android:fontFamily="@font/gurrellia"
+        android:layout_marginTop="@dimen/_480sdp"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text="DON'T HAVE ACCOUNT?"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_563sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/_165sdp"
+        android:layout_marginTop="@dimen/_561sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

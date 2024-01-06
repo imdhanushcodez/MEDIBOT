@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_220sdp"
+    android:background="@drawable/diaborder"
+    android:focusable="true"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:layout_height="@dimen/_170sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rakkas"
+        android:text="CHOOSE ANY ONE OF THESE "
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/mainpage"
+        android:elevation="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:text="C A L L"
+        android:textColor="#0480c4"
+        android:fontFamily="@font/gurrellia"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn2"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:background="@drawable/mainpage"
+        android:elevation="@dimen/_20sdp"
+        android:fontFamily="@font/gurrellia"
+        android:text="M E S S A G E"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:textColor="#0480c4"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

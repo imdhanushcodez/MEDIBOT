@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".regpage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/regpageborder"
+        tools:layout_editor_absoluteX="0dp">
+        <ImageView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_220sdp"
+            android:id="@+id/logo"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/medibotlogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.435">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rakkas"
+            android:text="REGISTRATION"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_213sdp"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/regname"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:elevation="@dimen/_2sdp"
+        android:drawableStart="@drawable/baseline_account_circle_242"
+        android:paddingStart="@dimen/_10sdp"
+        android:hint="   Enter your name "
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="@dimen/_320sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:elevation="@dimen/_2sdp"
+        android:id="@+id/regemail"
+        android:drawableStart="@drawable/baseline_mark_email_read_24"
+        android:paddingStart="@dimen/_10sdp"
+        android:hint="   Enter your email"
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="@dimen/_380sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+
+    <EditText
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:elevation="@dimen/_3sdp"
+        android:drawableStart="@drawable/baseline_security_24"
+        android:paddingStart="@dimen/_10sdp"
+        android:hint="   Enter your password"
+        android:id="@+id/regpass"
+        android:background="@drawable/inputbox"
+        android:layout_marginTop="@dimen/_440sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/invert2"
+        android:elevation="@dimen/_20sdp"
+        android:text="G E T    L O G I N "
+        android:fontFamily="@font/gurrellia"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_510sdp"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gurrellia"
+        android:text="ALREADY HAVE A ACCOUNT?"
+        android:textColor="#9F9F9F"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_583sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#0480c4"
+        android:layout_marginStart="@dimen/_185sdp"
+        android:layout_marginTop="@dimen/_581sdp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

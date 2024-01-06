@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130187754568",
+    "project_id": "medbot-4909b",
+    "storage_bucket": "medbot-4909b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130187754568:android:b369d83c59a773928c6c7d",
+        "android_client_info": {
+          "package_name": "com.example.medbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuI2I_zjco7p8Q2DQfXowOy5tf03PCK80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
